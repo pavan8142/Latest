@@ -16,6 +16,7 @@ public class SeleniumTest
 	@Test
 	public void m1()
 	{
+		System.out.println("branch");
 		
 		String path=System.getProperty("user.dir")+"\\extent-reports\\extent-report.html";
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
